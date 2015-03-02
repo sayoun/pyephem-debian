@@ -1,0 +1,25 @@
+Source: pyephem
+Section: python
+Priority: optional
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), python-all, python2.7-dev
+Standards-Version: 3.9.4
+Homepage: http://rhodesmill.org/pyephem/
+X-Python-Version: 2.7
+
+Package: python-pyephem
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}
+Description: basic astronomical computations for the Python programming language
+ PyEphem provides basic astronomical computations for the Python programming
+ language. Given a date and location on the Earth's surface, it can compute
+ the positions of the Sun and Moon, of the planets and their moons, and of any
+ asteroids, comets, or earth satellites whose orbital elements the user can
+ provide. Additional functions are provided to compute the angular separation
+ between two objects in the sky, to determine the constellation in which an
+ object lies, and to find the times at which an object rises, transits, and
+ sets on a particular day. The numerical routines that lie behind PyEphem are
+ those from the wonderful XEphem astronomy application, whose author, Elwood
+ Downey, generously gave permission for us to use them as the basis for PyEphem.
+
+
